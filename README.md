@@ -23,10 +23,6 @@ The FIJI Trainable Weka Segmentation (TWS) plugin integrates the image-processin
 
 The classifier model in this repository ( [Google Drive download link](https://drive.google.com/file/d/1DyxPmiG2cWH34HeAA1bCvjoVOSbJI5gX/view?usp=sharing) ) was trained on ~15 INHBA mRNA puncta images with 3 training (or classification) labels: puncta, background, and noise.
 
-<p align="center">
-  <img src="images-for-README/train.png" width="600">
-</p>
-
 **Post-processing of WEKA classification results (batch)**
 
 Apply *watershed* to segment clumps of detected puncta (in FIJI: Process -> Binary -> Watershed, or use a .macro automation for a folder of images). Before applying the watershed, ensure the output is binarized (in FIJI: Image -> Threshold -> B&W). 
