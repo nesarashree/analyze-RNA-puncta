@@ -1,5 +1,6 @@
 # An Open-Source Image Analysis Pipeline for Single-Cell mRNA Puncta Quantification & Colocalization
 **POSTER:** [Google Drive link](https://docs.google.com/presentation/d/19Jx10M6K_IjBzyiGjGeTr9Ue9u48ea8C_z5tHbKUYrc/edit?usp=sharing)
+
 This repository provides a reproducible, batch-analysis pipeline for quantifying mRNA puncta in confocal microscopy images, designed for experiments with excitatory (VGLUT) and inhibitory (GAD) neuron cell-type masks. The pipeline enables accurate detection, segmentation, and per-cell analysis of mRNA puncta, facilitating high-throughput analysis of RNAscope datasets.
 <p align="center">
   <img src="images-for-README/analysispipeline.png" width="700">
